@@ -11,23 +11,6 @@ import           LLVM.Pretty
 import           Parser
 import           System.IO
 
--- main :: IO ()
--- main = do
---     input <- read_
---     unless (input == ":q") $ print_ (eval_ input) >> main
---
--- read_ :: IO String
--- read_ = putStr "input?> " >> hFlush stdout >> getLine
---
--- eval_ :: String -> String
--- eval_ input = case runEval Map.empty $ parseExpr input of
---     Right value -> show value
---     Left err    -> show err
---
--- print_ :: String -> IO ()
--- print_ = putStrLn
---
-
 main :: IO ()
 main = do
     n <- getContents
