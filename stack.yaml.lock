@@ -3,11 +3,66 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: megaparsec-9.2.0@sha256:0248397bedfddbb94584925a09ba793cf2327362a3183624bd7bfaed529163cb,3347
+    pantry-tree:
+      size: 1518
+      sha256: 71403f455a514f62cb0c62145b6f6ce19bec34b16ed150a53df02ea9d773d0be
+  original:
+    hackage: megaparsec-9.2.0
+- completed:
+    hackage: text-1.2.5.0@sha256:791f0f6c97ed96113f17ab520cf0efe1a3a4f883a8c85910a5660567c8241c40,7895
+    pantry-tree:
+      size: 7395
+      sha256: f41504ec5c04a3f3358ef104362f02fdef29cbce4e5e4e6dbd6b6db70c40d4bf
+  original:
+    hackage: text-1.2.5.0
+- completed:
+    hackage: filepath-1.4.2.1@sha256:aff13ab4dd895931e77c22756e6e4e7bc8189351e0fa48270a998b826a63f54a,2291
+    pantry-tree:
+      size: 681
+      sha256: ed5ffa1e42c2626fc3b13b9f7ff3fef6b841515a57021819f8066db4e93264dc
+  original:
+    hackage: filepath-1.4.2.1
+- completed:
+    hackage: parser-combinators-1.2.1@sha256:16c3490e007ec10b1255a2b36fb483d000156d555269107131241d9e0fa96412,1788
+    pantry-tree:
+      size: 725
+      sha256: 7b7cc6bb088f536691c4088ac6abe9f4dd0399feffc26bdb2cbec695f7259737
+  original:
+    hackage: parser-combinators-1.2.1
+- completed:
+    hackage: containers-0.6.5.1@sha256:a029734132bb3471f8a91e3deaa095581a97410c405a1c665643053db87d87c1,2596
+    pantry-tree:
+      size: 2823
+      sha256: 86234e3221f6fa50e82d860a8428005ac3ff19fea92103ff79a3047cd5cd1625
+  original:
+    hackage: containers-0.6.5.1
+- completed:
+    hackage: mtl-2.2.2@sha256:1050fb71acd9f5d67da7d992583f5bd0eb14407b9dc7acc122af1b738b706ca3,2261
+    pantry-tree:
+      size: 1713
+      sha256: b8bdc2259e2f943a7252fb164805666fe108ac959d398e0af27b43ba2ebc241c
+  original:
+    hackage: mtl-2.2.2
+- completed:
+    hackage: llvm-hs-pretty-0.9.0.0@sha256:b7a5de5f3dd97893d19d2b47af1e4dd8d075a5cf57062180a912d1f3ef1def60,1671
+    pantry-tree:
+      size: 4685
+      sha256: 8cf6d628bb4f962575ad0993bb1010e9989cea00b325b8a45ac35ac201061386
+  original:
+    hackage: llvm-hs-pretty-0.9.0.0
+- completed:
+    hackage: llvm-hs-pure-9.0.0@sha256:134779f40086a366279f678e670b610d7a7618b28dd43f65894078fd20e04629,2945
+    pantry-tree:
+      size: 2600
+      sha256: f1a83aa959b69b72342997fc4fdc352086bc3b9f306cfb6a4c8bbc850d36b4fb
+  original:
+    hackage: llvm-hs-pure-9.0.0
 snapshots:
 - completed:
-    size: 619093
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/5.yaml
-    sha256: b936d27d647a31a8834d3efec126e2a07dee9c9bd6dd401d9bdac77e7b278f1e
-  original:
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/19/5.yaml
+    size: 586103
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/19.yaml
+    sha256: 32716534fff554b7f90762130fdb985cabf29f157758934dd1c8f3892a646430
+  original: lts-18.19
